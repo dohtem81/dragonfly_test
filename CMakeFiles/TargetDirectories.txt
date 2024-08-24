@@ -1,0 +1,3 @@
+/usr/local/src/client/CMakeFiles/clientDrangonFly.dir
+/usr/local/src/client/CMakeFiles/edit_cache.dir
+/usr/local/src/client/CMakeFiles/rebuild_cache.dir
