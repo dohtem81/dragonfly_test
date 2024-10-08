@@ -6,7 +6,7 @@ int main()
     std::cout << "hello hiredis test ultimate" << std::endl;
 
     // connect to redis server
-    redisContext *c = redisConnect("127.0.0.1", 6379);
+    redisContext *c = redisConnect("dragonfly", 6379);
     if (c == NULL || c->err) {
         if (c) {
             std::cerr << "Connection error: " << c->errstr << std::endl;

@@ -13,4 +13,4 @@ set(SOURCES
 )
 
 add_executable( clientDrangonFly ${SOURCES} )
-target_link_libraries( clientDrangonFly ${HIREDIS_LIBRARIES} ) 
+target_link_libraries( clientDrangonFly ${hiredis_LIBRARIES} ) 
