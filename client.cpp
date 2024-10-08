@@ -1,4 +1,4 @@
-#include <hiredis/hiredis.h>
+#include <hiredis.h>
 #include <iostream>
 
 int main()

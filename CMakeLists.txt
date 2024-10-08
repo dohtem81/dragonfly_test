@@ -7,6 +7,10 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 find_package( hiredis REQUIRED )
 include_directories( ${hiredis_INCLUDE_DIRS} )
-add_executable( clientDrangonFly 
-    client.cpp )
-target_link_libraries( clientDrangonFly ${hiredis_LIBS} ) 
+
+set(SOURCES
+    client.cpp
+)
+
+add_executable( clientDrangonFly ${SOURCES} )
+target_link_libraries( clientDrangonFly ${HIREDIS_LIBRARIES} ) 
