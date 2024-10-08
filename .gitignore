@@ -32,7 +32,6 @@
 *.app
 
 ../CMakeFiles
-../CMakeFiles.txt
 ../CMakeCache.txt
 *.cmake
 Makefile
